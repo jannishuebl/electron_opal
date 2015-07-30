@@ -16,7 +16,7 @@ def config
   return @config if @config
   @config = OpenStruct.new
   @config.paths = Opal.paths
-  @config.paths << File.join(File.dirname(__FILE__), "../opal")
+  @config.paths << File.expand_path('../../opal', __FILE__)
 
   @config.app_class = "main"
 
