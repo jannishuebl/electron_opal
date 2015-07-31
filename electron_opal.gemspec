@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   s.add_dependency "tilt", "~> 2.0.1"
   s.add_dependency "opal-jquery"
   s.add_dependency "opal-vienna"
+  s.add_dependency "activesupport"
 end
