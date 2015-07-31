@@ -1,6 +1,6 @@
 module Electron
   module Observable
-    def on(event, &block)
+    def self.on(event, &block)
       method_missing(:on, event.dasherize, block)
     end
   end

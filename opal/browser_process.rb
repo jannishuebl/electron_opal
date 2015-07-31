@@ -9,15 +9,6 @@ require 'electron/wrapper'
 require 'electron/wrapper_class'
 require 'electron/observable'
 require 'electron/window'
+require 'electron/renderer_process_modules'
+require 'electron/both_process_modules'
 
-module Electron
-
-  Object.const_set("Process", Class.new do
-    include Wrapper
-
-    def initialize(process)
-      @wrapped = process
-    end
-  end)
-
-end
