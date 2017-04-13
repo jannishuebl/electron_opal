@@ -1,31 +1,5 @@
-# .
+# NOT MAINTAINED
 
-TODO: Write a gem description
+Since I am not using electron or opal anymore I will not maintain the project. 
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem '.'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install .
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/./fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+A more Active Fork exists at:  https://github.com/youchan/electron_opal
